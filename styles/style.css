@@ -1,0 +1,104 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(235, 241, 235);
+}
+
+header {
+  background-color: #4e8daa;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main {
+  float: left;
+  background-color: #212a77;
+  border-color: black;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 25px;
+  height: 100vh;
+  width: 75vw;
+}
+
+.grid-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 600px;
+  width: 600px;
+}
+
+.grid div {
+  border: 1px solid rgb(224, 208, 208);
+  flex-grow: 1;
+  height: 10%;
+  width: 10%;
+  color: white;
+}
+.astronaut {
+  /* background-image: url("C:\Users\David\documents\ga\HOMEWORK\David\Project-S&L\assets\astronaut.png");
+  background-repeat: no-repeat;
+  background-size: contain; */
+  background-color: rgba(221, 66, 19, 0.651);
+  cursor: pointer;
+}
+.alien {
+  /* background-image: url("C:\Users\David\documents\ga\HOMEWORK\David\Project-S&L\assets\alien.png");
+  background-repeat: no-repeat;
+  background-size: contain; */
+  background-color: rgb(199, 155, 12);
+  cursor: pointer;
+}
+
+.participants {
+  height: 50vh;
+  background-color: #4e8daa;
+  padding: 25px;
+  /* border-radius: px; */
+}
+
+.score-title {
+  background-color: #9da0c5;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(221, 66, 19, 0.651);
+  width: 200px;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.computer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(199, 155, 12);
+  width: 200px;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #9da0c5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 5px;
+}
